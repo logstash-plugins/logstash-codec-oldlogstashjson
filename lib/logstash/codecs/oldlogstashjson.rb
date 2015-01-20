@@ -4,7 +4,6 @@ require "logstash/json"
 
 class LogStash::Codecs::OldLogStashJSON < LogStash::Codecs::Base
   config_name "oldlogstashjson"
-  milestone 2
 
   # Map from v0 name to v1 name.
   # Note: @source is gone and has no similar field.
